@@ -1,0 +1,519 @@
+body {
+    width: 99%;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    border-bottom: solid 2px #eaeaea ;
+}
+
+.header {
+    display: flex;
+}
+
+.hideandseek {
+    visibility: hidden;
+}
+
+.header>div {
+    display: flex;
+    width: 12%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.space { 
+    flex-grow: 0.7;
+} 
+
+.icons>img {
+    margin-left: 20px;
+}
+
+.content1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.first {
+    order: 1;
+    padding: 10%;
+    display: block;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: #eaeaea solid 1px;
+}
+
+.firstimg {
+    order: 2;
+    display: flex;
+    width: 60%;
+    background-image: url(img/british-columbia-3787200_1280.jpg);
+    border-bottom: #eaeaea solid 1px;
+}
+
+span {
+    font-size: 40px;
+}
+
+.content2 {   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.second {
+    order: 2;
+    padding: 10%;
+    display: block;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: #eaeaea solid 1px;
+}
+
+
+.secondimg{
+    order: 1;
+    display: flex;
+    width: 60%;
+    border-bottom: #eaeaea solid 1px;
+}
+
+.content3 {   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.third {
+    order: 1;
+    padding: 10%;
+    display: block;
+    align-items: center;
+   justify-content: center;
+    border-bottom: #eaeaea solid 1px;
+}
+    
+    
+.thirdimg{
+    order: 2;
+    display: flex;
+    width: 60%;
+    border-bottom: #eaeaea solid 1px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid silver;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5%;
+}
+
+.textG {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.textimg {
+    color: white;
+    display: block;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 50px;
+    height: 80%;
+    visibility: hidden;
+}
+
+.buttonimgh {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.img1:hover>.textimg {
+    visibility: visible;
+}
+
+.img2:hover>.textimg {
+    visibility: visible;
+}
+
+.img3:hover>.textimg {
+    visibility: visible;
+}
+
+.img4:hover>.textimg {
+    visibility: visible;
+}
+
+.img1 {
+    width: 22%;
+    height: 250px;
+    background-image:url(img/img_for_block/bee-5714946_640.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.img2 {
+    width: 23%;
+    height: 250px;
+    background-image:url(img/img_for_block/lynx-5712690_640.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.img3 {
+    width: 22%;
+    height: 250px;
+    background-image:url(img/img_for_block/road-5704083_640.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.img4 {
+    width: 23%;
+    height: 250px;
+    background-image:url(img/img_for_block/tree-stump-5707332_640.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.featflex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.featblock{
+    text-align: center;
+    width: 23%;
+    padding: 5%;
+    display: block;
+    flex-direction: row;
+    border-bottom: 2px dashed #eaeaea;
+}
+
+.featblock:nth-child(2) {
+    border-right: 2px dashed #eaeaea;
+    border-left: 2px dashed #eaeaea ;
+}
+
+.featblock:nth-child(4){
+    border-bottom: none;
+}
+
+.featblock:nth-child(5) {
+    border-right: 2px dashed #eaeaea;
+    border-left: 2px dashed #eaeaea;
+    border-bottom: none;
+}
+
+.featblock:nth-child(6) {
+    border-bottom: none;
+}
+
+.table {
+    padding: 5% 15% 5% 15%;
+    border-bottom: 1px solid #eaeaea;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+form>div {
+    margin-bottom: 2%;
+    width: 33%;
+}
+
+.firstone {
+    border: 1px solid #eaeaea;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.newP {
+    width: 55%;
+    padding: 1% 1% 1% 0%;
+    align-items: center;
+    justify-content: center;
+}
+
+select {
+    border: 1px solid #eaeaea;
+    width: 97%;
+    height: 35px;
+}
+
+.select {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.message {
+    margin-top: 1%;
+    border: 1px solid #eaeaea;
+    width: 96.5%;
+    height: 100%;
+}
+
+.trans {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10% ;
+    width: 60%;
+}
+
+.button {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bottomicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.bottomicons>div {
+    border: solid #474747 1px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0.5%;
+}
+
+@media screen and (min-width: 650px) and (max-width: 850px) {
+    body {
+        font-size: 10px;
+    }
+
+    header {
+        width: 93%;
+        font-size: 10px;
+        height: 40px;
+    }
+
+    .space {
+        flex-grow: 0.5;
+    }
+
+    .first {
+        padding: 8%;
+        width: 40%;
+    }
+
+    .firstimg {
+        width: 60%;
+    }
+
+    .second {
+        padding: 9%;
+        width: 40%;
+    }
+
+    .secondimg {
+        width: 60%;
+    }
+
+    .third {
+        width: 40%;
+        padding: 8%;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        width: 40%;
+    }
+
+    .img3 {
+        display: none;
+    }
+
+    .img4 {
+        width: 40%;
+    }
+
+    .featblock {
+        width: 35%;
+    }
+
+    .button {
+        margin-top: 10%;
+    }
+
+    .featblock {
+        padding: 7%;
+    }
+
+    .featblock:nth-child(2) {
+        border-right: none;
+    }
+
+    .featblock:nth-child(3) {
+        border-right: dashed 2px #eaeaea;
+    }
+
+    .featblock:nth-child(4) {
+        border-bottom: 2px dashed #eaeaea;
+    }
+
+    .featblock:nth-child(5) {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 8px;
+    }
+
+    header {
+        width: 70%;
+        height: 50px;
+    }
+
+    .space {
+        flex-grow: 1;
+    }
+    
+    .hideandseek{
+        visibility: visible;
+    }
+
+    .icons {
+        visibility: hidden;
+    }
+    .divheader {
+        visibility: hidden;
+    }
+
+    .content1 {
+        flex-wrap: wrap;
+    }
+
+    .first {
+        padding-left: 28% ;
+        text-align: center;
+        font-size: 7px;
+        order: 2;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    .firstimg {
+        width: 95%;
+        order: 1;
+    }
+
+    button {
+        font-size: 8px;
+        padding: 10px;
+    }
+
+    .content2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .second {
+        text-align: center;
+    }
+    .secondimg {
+        width: 60%;
+        height: 300px;
+    }
+
+    .content3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .thirdimg{
+        width: 60%;
+        height: 300px;
+        order: 1;
+    }
+
+    .third {
+        order: 2;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        width: 80%;
+        height: 250px;
+    }
+
+    .img3 {
+        display: none;
+    }
+
+    .img4 {
+        display: none;
+    }
+
+    .featblock {
+        width: 100%;
+        border-right: none;
+        border-left: none;
+        border-bottom: dashed 2px #eaeaea;
+    }
+
+    .featblock:nth-child(2) {
+        border-right: none;
+        border-left: none;
+        border-bottom: dashed 2px #eaeaea;
+    }
+
+    .featblock:nth-child(4) {
+        border-bottom: dashed 2px #eaeaea ;
+    }
+
+    .featblock:nth-child(5) { 
+        border-right: none;
+        border-left: none;
+        border-bottom: dashed 2px #eaeaea ;
+    }
+
+    .featblock:nth-child(6) { 
+        border-bottom: dashed 2px #eaeaea ;
+    }
+
+    select {
+        font-size: 8px;
+    }
+
+    .message {
+        width: 95%;
+        height: 55%;
+    }
+    
+    .textimg {
+        font-size: 13px;
+    }
+}
+
